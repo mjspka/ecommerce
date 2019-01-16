@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
-import { DropdownModule } from 'ng2-bootstrap';
+import { BsDropdownModule } from 'ng2-bootstrap';
 
 import { CartMenuComponent } from './cart-menu.component';
 import { CartService } from './cart.service';
@@ -15,7 +15,7 @@ import { CartViewComponent } from './cart-view.component';
     FormsModule,
     ReactiveFormsModule,
     RouterModule,
-    DropdownModule
+    BsDropdownModule
   ],
   declarations: [
     CartMenuComponent,

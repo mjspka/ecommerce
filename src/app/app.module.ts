@@ -8,7 +8,7 @@ import {
   AlertModule ,
   ButtonsModule,
   CollapseModule,
-  DropdownModule,
+  BsDropdownModule,
   CarouselModule
 } from 'ng2-bootstrap';
 
@@ -44,7 +44,7 @@ import { routing } from './app.routes';
     AlertModule.forRoot(),
     ButtonsModule.forRoot(),
     CollapseModule.forRoot(),
-    DropdownModule.forRoot(),
+    BsDropdownModule.forRoot(),
     CarouselModule.forRoot(),
   ],
   providers: [
